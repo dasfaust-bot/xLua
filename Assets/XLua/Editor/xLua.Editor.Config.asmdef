@@ -2,7 +2,8 @@
     "name": "xLua.Editor.Config",
     "rootNamespace": "XLua",
     "references": [
-        "xLua"
+        "xLua",
+        "xLua.Editor"
     ],
     "includePlatforms": [
         "Editor"

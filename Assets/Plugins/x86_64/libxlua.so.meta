@@ -1,17 +1,21 @@
 fileFormatVersion: 2
 guid: 1055830ddb882704fa71275ed9b2a78d
-timeCreated: 1488352111
-licenseType: Pro
 PluginImporter:
-  serializedVersion: 1
+  externalObjects: {}
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
+  defineConstraints: []
   isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
   platformData:
     Android:
       enabled: 0
       settings:
         CPU: AnyCPU
+        Is16KbAligned: true
     Any:
       enabled: 0
       settings: {}
@@ -21,36 +25,14 @@ PluginImporter:
         CPU: x86_64
         DefaultValueInitialized: true
         OS: AnyOS
-    Linux:
-      enabled: 0
-      settings:
-        CPU: None
     Linux64:
       enabled: 1
       settings:
         CPU: x86_64
-    LinuxUniversal:
-      enabled: 1
-      settings:
-        CPU: x86_64
-    OSXIntel:
-      enabled: 0
-      settings:
-        CPU: None
-    OSXIntel64:
-      enabled: 0
-      settings:
-        CPU: None
     OSXUniversal:
       enabled: 0
       settings:
         CPU: None
-    WP8:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
-        DontProcess: False
-        PlaceholderPath: 
     Win:
       enabled: 0
       settings:

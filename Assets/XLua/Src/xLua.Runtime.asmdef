@@ -1,5 +1,5 @@
 {
-    "name": "xLua",
+    "name": "xLua.Runtime",
     "rootNamespace": "XLua",
     "references": [],
     "includePlatforms": [],

@@ -7,10 +7,10 @@ using CSObjectWrapEditor;
 /// IL2CPP glue config for the SalvagePursuit fork.
 ///
 /// Two jobs:
-/// 1. Redirect generated code into the xLua assembly. The generator's default output is the project
-///    root (Assets/XLua/Gen), which compiles into Assembly-CSharp; its wrappers reference xLua
+/// 1. Redirect generated code into the xLua runtime assembly. The generator's default output is the
+///    project root (Assets/XLua/Gen), which compiles into Assembly-CSharp; its wrappers reference xLua
 ///    internals (objectCasters, getTypeId) and fail there. Pointing GenPath under Src/ (covered by
-///    xLua.asmdef) puts the generated code in the same assembly as the internals it uses.
+///    xLua.Runtime.asmdef) puts the generated code in the same assembly as the internals it uses.
 /// 2. List the types that need generated wrappers: XLua.Spike (Lua calls C#) and Func&lt;int,int&gt;
 ///    (C# calls a Lua function as a delegate).
 ///

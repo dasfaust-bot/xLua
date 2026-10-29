@@ -2,7 +2,7 @@
     "name": "xLua.Editor",
     "rootNamespace": "XLua",
     "references": [
-        "xLua"
+        "xLua.Runtime"
     ],
     "includePlatforms": [
         "Editor"

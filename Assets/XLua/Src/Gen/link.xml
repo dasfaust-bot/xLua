@@ -1,0 +1,10 @@
+﻿
+
+<linker>
+
+	<assembly fullname="xLua.Runtime">
+	    <type fullname="XLua.Spike" preserve="all"/>
+		
+	</assembly>
+
+</linker>

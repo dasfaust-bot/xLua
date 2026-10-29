@@ -1,0 +1,4 @@
+# Unity on Windows writes .meta files with CRLF. Normalize text to LF in the
+# index and check out native line endings, so a Unity re-save leaves the working
+# tree clean instead of showing every plugin meta as modified.
+*.meta text=auto

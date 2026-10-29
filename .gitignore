@@ -33,3 +33,21 @@ build/luajit-2.1.0b2/src/luajit.exe
 build/luajit-2.1.0b2/src/luajit.exp
 build/luajit-2.1.0b2/src/luajit.lib
 
+# Upstream folders this fork does not track at all: no file under them is in git.
+# The host project vendors xLua under its Assets/ folder, so Unity imports these
+# directories and writes one .meta per folder and per file. Ignoring the folder
+# and its .meta together keeps a fresh clone clean. Nothing outside this repo
+# references them by GUID.
+/General
+/General.meta
+/Test
+/Test.meta
+/Tools
+/Tools.meta
+/WebGLPlugins
+/WebGLPlugins.meta
+/build
+/build.meta
+/docs
+/docs.meta
+
